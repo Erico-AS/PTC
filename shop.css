@@ -129,6 +129,10 @@ nav img {margin-top: 20px;}
 
 }
 
+.btnMenu:hover {
+    border-bottom: 1px solid var(--fot);
+}
+
                       /*Fim do Menu */
 
 
@@ -154,6 +158,9 @@ nav img {margin-top: 20px;}
                         width: 100vw;
                     }
 h1{ grid-area: title;
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
     padding-top: 40px;
     text-align: center;}
 
@@ -163,6 +170,9 @@ main{
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 70px ;
+    animation-name: FadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
     text-align: center;
     display: grid;
 }
@@ -234,3 +244,4 @@ height: 200px;
                                 }
                                 
                                 .redes-img:hover{opacity: 50%;}
+
